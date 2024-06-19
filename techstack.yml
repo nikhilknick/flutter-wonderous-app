@@ -1,0 +1,444 @@
+repo_name: nikhilknick/flutter-wonderous-app
+report_id: 93bf8a0d6c449fcfa9875b28769d369c
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-19T08:03:59+00:00'
+requested_by: esDotDev
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '23.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Federico Viceconti
+  last_updated_on: 2022-09-08 09:31:07.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-09-02 02:46:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/.github/workflows/tests.yaml
+  detection_source: ".github/workflows/tests.yaml"
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '6.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Federico Viceconti
+  last_updated_on: 2022-09-08 09:31:07.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/ios/Podfile.lock
+  detection_source: ios/Podfile.lock
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app
+  detection_source: Repo Metadata
+- name: build_runner
+  description: A build system for Dart code generation and modular compilation
+  package_url: https://pub.dartlang.org/build_runner
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: collection
+  description: Collections and utilities functions and classes related to collections
+  package_url: https://pub.dartlang.org/collection
+  version: 1.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: equatable
+  description: A Dart package that helps to implement value based equality without
+    needing to explicitly override == and hashCode
+  package_url: https://pub.dartlang.org/equatable
+  version: 2.0.5
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-09-02 02:46:15.000000000 Z
+- name: flutter_circular_text
+  description: Flutter package which places text in a curved circular path
+  package_url: https://pub.dartlang.org/flutter_circular_text
+  version: 0.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-09-02 02:46:15.000000000 Z
+- name: flutter_staggered_grid_view
+  description: Provides a collection of Flutter grids layouts
+  package_url: https://pub.dartlang.org/flutter_staggered_grid_view
+  version: 0.6.2
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-09-02 02:46:15.000000000 Z
+- name: flutter_svg
+  description: An SVG rendering and widget library for Flutter
+  package_url: https://pub.dartlang.org/flutter_svg
+  version: 1.1.4
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-09-02 02:46:15.000000000 Z
+- name: get_it
+  description: Simple direct Service Locator that allows to decouple the interface
+    from a concrete implementation and to access the concrete implementation from
+    everywhere in your App"
+  package_url: https://pub.dartlang.org/get_it
+  version: 7.2.0
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: google_maps_flutter
+  description: A Flutter plugin for integrating Google Maps in iOS and Android applications
+  package_url: https://pub.dartlang.org/google_maps_flutter
+  version: 2.1.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-09-02 02:46:15.000000000 Z
+- name: http
+  description: A composable
+  package_url: https://pub.dartlang.org/http
+  version: 0.13.5
+  license: BSD-3-Clause
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: intl
+  description: Contains code to deal with internationalized/localized messages
+  package_url: https://pub.dartlang.org/intl
+  version: 0.17.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: json_annotation
+  description: Classes and helper functions that support JSON code generation via
+    the `json_serializable` package
+  package_url: https://pub.dartlang.org/json_annotation
+  version: 4.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: json_serializable
+  description: Automatically generate code for converting to and from JSON by annotating
+    Dart classes
+  package_url: https://pub.dartlang.org/json_serializable
+  version: 6.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: path_provider
+  description: Flutter plugin for getting commonly used locations on host platform
+    file systems
+  package_url: https://pub.dartlang.org/path_provider
+  version: 2.0.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: provider
+  description: A wrapper around InheritedWidget to make them easier to use and more
+    reusable
+  package_url: https://pub.dartlang.org/provider
+  version: 6.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: screenshot
+  description: Flutter Screenshot Package
+  package_url: https://pub.dartlang.org/screenshot
+  version: 1.2.3
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: shared_preferences
+  description: Flutter plugin for reading and writing simple key-value pairs
+  package_url: https://pub.dartlang.org/shared_preferences
+  version: 2.0.15
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/nikhilknick/flutter-wonderous-app/blob/master/android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Shawn
+  last_updated_on: 2022-08-30 02:38:28.000000000 Z
